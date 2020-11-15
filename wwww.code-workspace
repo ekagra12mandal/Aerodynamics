@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "Loy other"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"maven.view": "hierarchical",
+		"liveServer.settings.multiRootWorkspaceName": "Loy"
+	}
+}

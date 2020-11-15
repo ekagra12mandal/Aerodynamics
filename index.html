@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        img {
+            object-fit: cover;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerodynamics of Flight</title>
+    <link rel="stylesheet" href="bulma.css">
+</head>
+
+<body>
+    <section class="hero is-large is-dark"
+        style="background-image: url('template.jpg'); background-position: center; background-size: cover;">
+        <div class="hero-body"
+            style="background-image: linear-gradient(to right, black, rgba(139, 139, 139, 0.089), rgb(56, 55, 55));">
+            <p class="is-size-3 has-text-weight-semibold" style="color: white;">Aerodynamics of Flight</p>
+            <p class="subtitle">If you have ever wondered that how an <br> airplane is able to fly, you are thinking
+                <br> about the <strong>Aerodynamics</strong> of flight​.</p>
+        </div>
+    </section>
+    <div class="columns section">
+        <div class="column">
+            <p class="title is-size-3">Introduction</p>
+            <div>Airplanes are very heavy, so it may seem strange that they are able to lift off the ground and fly.
+                Flight is possible because of a balance of four different physical forces, which are lift, drag, weight,
+                and thrust. Lift and weight balance each other and thrust and drag must be present in just the right
+                amounts. <br><br>​</div>
+            <p><strong>Thrust</strong><br>Thrust is a force that moves an aircraft in the direction of the motion. It is
+                created with a propeller, jet engine, or rocket. Air is pulled in and then pushed out in an opposite
+                direction. One example is a household fan.<br><br></p>
+            <p><strong>Weight</strong><br>Weight is the force caused by gravity. <br><br></p>
+            <p><strong>Drag</strong><br>Drag is the force that acts opposite to the direction of motion. It tends to
+                slow an object. Drag is caused by friction and differences in air pressure. An example is putting your
+                hand out of a moving car window and feeling it pull back. <br><br></p>
+            <p><strong>Lift</strong></p>
+        </div>
+        <div class="column">
+            <figure class="image">
+                <img src="Aircraft-balance-of-forces.png" alt="unable to load image">
+            </figure>
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-4by3 change">
+                        <img src="crosswind landing.jpg" alt="unable to load image">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <p class="subtitle">Crosswind Landings B777</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <script>
+        const crosswind = document.querySelector('.change')
+        crosswind.innerHTML = ''
+    </script>
+</body>
+
+</html>
